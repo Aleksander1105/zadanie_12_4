@@ -3,7 +3,7 @@ var button = document.getElementById('get-joke');
 button.addEventListener('click', function() {
 	getJoke();
 });
-window.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
 	getJoke();
 });
 
